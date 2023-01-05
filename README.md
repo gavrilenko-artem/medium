@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # medium
 
 ## Project setup
@@ -22,3 +23,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+=======
+# medium
+>>>>>>> 777a901f697a6ee64aab7577a97fc66a2e11530f

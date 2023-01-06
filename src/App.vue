@@ -1,3 +1,6 @@
 <template>
-  <div>start project!</div>
+  <div>
+    start project!
+    <router-view />
+  </div>
 </template>

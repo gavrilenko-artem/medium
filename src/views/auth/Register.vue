@@ -1,0 +1,36 @@
+<template>
+  <div class="register-wrapper">
+    <div class="container" id="container">
+      <div class="form-container sign-up-container">
+        <form @submit.prevent="onSubmit">
+          <h1>Create Account</h1>
+          <div class="social-container">
+            <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+            <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+          <span>or use your email for registration</span>
+          <input type="text" placeholder="Name" />
+          <input type="email" placeholder="Email" />
+          <input type="password" placeholder="Password" />
+          <button>Sign Up</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "AppRegister",
+  methods: {
+    onSubmit() {
+      console.log("submitted form");
+    },
+  },
+};
+</script>
+
+<style>
+@import "@/views/auth/auth.scss";
+</style>
